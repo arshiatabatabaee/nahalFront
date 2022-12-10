@@ -1,0 +1,41 @@
+* {
+  padding: 0.5rem;
+}
+.card {
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+  width: 300px;
+  height: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  background-color: var(--color--vivid-green-cyan);
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 2px;
+  /* border-radius: 13px; */
+  width: 80%;
+}
+button:hover {
+  background-color: gray;
+  transition: 500ms;
+}
+img {
+  width: 100%;
+}
+.productText {
+  text-align: center;
+  background-color: var(--color-gray);
+}
+.packService {
+  list-style-type: none;
+  direction: rtl;
+  text-align: right;
+  padding: 7px;
+}
